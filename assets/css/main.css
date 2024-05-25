@@ -13,6 +13,7 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
+    background-color: rgb(17, 17, 17);
     color: #555;
     font-family: 'Nunito Sans', sans-serif
 }
@@ -34,6 +35,7 @@ section {
 h1 {
     margin: .67em 0;
     font-size: 2.5rem;
+    color: black;
 }
 
 figure {
@@ -4789,15 +4791,22 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #333
 }
 
 h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    background-image: linear-gradient(60deg, #421d97, #55fa8c);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    background-image: linear-gradient(75deg, #9936c0, #fae155);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4 {
@@ -4811,7 +4820,9 @@ ul {
 
 figure,
 ol,
-p,
+p{
+    color: white;
+}
 ul {
     margin: 1em 0
 }
@@ -4821,7 +4832,7 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #6c2efc;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6c2efc, #140885);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -4967,13 +4978,14 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #4b5664
+    color: white;
 }
 
 #about {
     width: 90%;
     margin: 0 auto;
-    max-width: 960px
+    max-width: 960px;
+    color: white;
 }
 
 @media only screen and (min-width:550px) {
@@ -4996,19 +5008,28 @@ a img {
 }
 
 .user p {
-    font-size: 16px
+    font-size: 16px;
 }
 
 @media only screen and (min-width:550px) {
     .user {
         flex-wrap: nowrap;
-        font-size: 75px
+        font-size: 75px;
     }
 }
 
 .user-details {
     text-align: center;
-    margin: 5px auto
+    margin: 5px auto;
+}
+
+.user-details h1{
+    background-image: linear-gradient(75deg, #301ca0, #6a59ff);
+    background-size: 100%;
+    background-clip: text;
+    font-size: 60px;
+    -webkit-text-fill-color: transparent;
+
 }
 
 #projects {
@@ -5106,9 +5127,9 @@ a img {
 .footer {
     background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #6c2efc, #140885);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #6c2efc, #140885);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
