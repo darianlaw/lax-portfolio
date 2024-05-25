@@ -13,8 +13,8 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: #212121;
-    background-color: #212121;
+    background-color: #121212; /* A dark shade of gray */
+    color: #ffffff; /* White text color for better contrast */
     font-family: 'Nunito Sans', sans-serif
 }
 
