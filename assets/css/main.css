@@ -4845,7 +4845,7 @@ a img {
 .header {
     z-index: 1;
     text-align: center;
-    color: #fff;
+    color: #212121;
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
@@ -4860,7 +4860,7 @@ a img {
     font-size: 35px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: #212121;
 }
 
 @media only screen and (min-width:550px) {
@@ -4874,7 +4874,7 @@ a img {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: #212121;
     margin-top: 10px
 }
 
@@ -4889,7 +4889,7 @@ a img {
 }
 
 .header-links .link {
-    color: #fff;
+    color: #212121;
     text-decoration: none;
     font-size: 15px;
     margin: 10px
