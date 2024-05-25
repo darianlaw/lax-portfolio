@@ -75,7 +75,7 @@ dfn {
 
 mark {
     background-color: #fff;
-    color: #fff;
+    color: 000;
 }
 
 small {
@@ -154,7 +154,7 @@ button::-moz-focus-inner {
 }
 
 [type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
+[type=resecolort]:-moz-focusring,
 [type=submit]:-moz-focusring,
 button:-moz-focusring {
     outline: 1px dotted ButtonText
@@ -544,7 +544,7 @@ template {
     content: "\f013"
 }
 
-.fa-trash-o:before {
+.fa-trash-o:before {color
     content: "\f014"
 }
 
@@ -3057,7 +3057,7 @@ template {
 }
 
 .fa-viadeo-square:before {
-    content: "\f2aa"
+    content: "\f2aa"color
 }
 
 .fa-snapchat:before {
@@ -3100,7 +3100,7 @@ template {
 
 .fa-handshake-o:before {
     content: "\f2b5"
-}
+}color
 
 .fa-envelope-open:before {
     content: "\f2b6"
@@ -3203,7 +3203,7 @@ template {
 .fa-bath:before,
 .fa-bathtub:before,
 .fa-s15:before {
-    content: "\f2cd"
+    content: "\f2cd"color
 }
 
 .fa-podcast:before {
@@ -3455,7 +3455,7 @@ template {
 
 .devicon-gatling-plain:before {
     content: "\e917"
-}
+}color
 
 .devicon-ssh-original-wordmark:before,
 .devicon-ssh-plain-wordmark:before {
@@ -3510,7 +3510,7 @@ template {
 }
 
 .devicon-jeet-plain-wordmark:before {
-    content: "\e906"
+    content: "\e906"color
 }
 
 .devicon-jeet-plain:before {
@@ -3555,7 +3555,7 @@ template {
 }
 
 .devicon-bitbucket-original:before,
-.devicon-bitbucket-plain:before {
+.devicon-bitbucket-plain:becolorfore {
     content: "\e90f"
 }
 
@@ -3601,7 +3601,7 @@ template {
 }
 
 .devicon-redhat-plain:before {
-    content: "\e62b"
+    content: "\e62b"color
 }
 
 .devicon-cplusplus-line-wordmark:before,
