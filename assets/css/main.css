@@ -5041,7 +5041,7 @@ a img {
 }
 
 .user-projects li {
-    color: #1488CC;
+    color: #6143de;
     font-size: 1.1rem
 }
 
@@ -5084,9 +5084,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 10px;
-    color: #1488CC;
+    color:  #6143de;
     background-color: transparent;
-    border: 1px solid #1488CC;
+    border: 1px solid #6143de;
     border-radius: 13px;
     text-align: center;
     outline: 0;
