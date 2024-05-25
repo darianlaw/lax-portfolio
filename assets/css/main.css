@@ -13,6 +13,7 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
+    color: #555;
     font-family: 'Nunito Sans', sans-serif
 }
 
@@ -73,8 +74,8 @@ dfn {
 }
 
 mark {
-    background-color: #fff;
-    color: 000;
+    background-color: #ff0;
+    color: #000
 }
 
 small {
@@ -153,7 +154,7 @@ button::-moz-focus-inner {
 }
 
 [type=button]:-moz-focusring,
-[type=resecolort]:-moz-focusring,
+[type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring,
 button:-moz-focusring {
     outline: 1px dotted ButtonText
@@ -208,10 +209,6 @@ legend {
 
 summary {
     display: list-item
-}
-
-p{
-color: #4f4f4f;
 }
 
 [hidden],
@@ -3060,7 +3057,7 @@ template {
 }
 
 .fa-viadeo-square:before {
-    content: "\f2aa"color
+    content: "\f2aa"
 }
 
 .fa-snapchat:before {
@@ -3103,7 +3100,7 @@ template {
 
 .fa-handshake-o:before {
     content: "\f2b5"
-}color
+}
 
 .fa-envelope-open:before {
     content: "\f2b6"
@@ -3206,7 +3203,7 @@ template {
 .fa-bath:before,
 .fa-bathtub:before,
 .fa-s15:before {
-    content: "\f2cd"color
+    content: "\f2cd"
 }
 
 .fa-podcast:before {
@@ -3458,7 +3455,7 @@ template {
 
 .devicon-gatling-plain:before {
     content: "\e917"
-}color
+}
 
 .devicon-ssh-original-wordmark:before,
 .devicon-ssh-plain-wordmark:before {
@@ -3513,7 +3510,7 @@ template {
 }
 
 .devicon-jeet-plain-wordmark:before {
-    content: "\e906"color
+    content: "\e906"
 }
 
 .devicon-jeet-plain:before {
@@ -3558,7 +3555,7 @@ template {
 }
 
 .devicon-bitbucket-original:before,
-.devicon-bitbucket-plain:becolorfore {
+.devicon-bitbucket-plain:before {
     content: "\e90f"
 }
 
@@ -3604,7 +3601,7 @@ template {
 }
 
 .devicon-redhat-plain:before {
-    content: "\e62b"color
+    content: "\e62b"
 }
 
 .devicon-cplusplus-line-wordmark:before,
@@ -3662,7 +3659,7 @@ template {
 
 .devicon-erlang-plain-wordmark:before {
     content: "\e616"
-}n 'Laxto
+}
 
 .devicon-erlang-plain:before {
     content: "\e617"
@@ -4824,11 +4821,11 @@ a img {
 }
 
 #particles-js {
-    background:  #3f1ad9;
+    background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3f1ad9,  #8365ff);
+    background: -webkit-linear-gradient(to right, #6c2efc, #140885);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f1ad9,  #8365ff);
+    background: linear-gradient(to right, #6c2efc, #140885);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4912,7 +4909,7 @@ a img {
 
 .down,
 .header-icons .icon {
-    color: #ff;
+    color: #fff;
     text-align: center
 }
 
@@ -4929,7 +4926,7 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color:  #8a6dfe;
+    color: #1488CC;
     background: #fff
 }
 
@@ -4970,7 +4967,7 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #8a6dfe
+    color: #4b5664
 }
 
 #about {
@@ -5044,7 +5041,7 @@ a img {
 }
 
 .user-projects li {
-    color: #6143de;
+    color: #1488CC;
     font-size: 1.1rem
 }
 
@@ -5086,11 +5083,11 @@ a img {
 .project-link {
     display: inline-block;
     margin: 10px 0;
-    padding: 10px;
-    color:  #fff;
+    padding: 5px;
+    color: #1488CC;
     background-color: transparent;
-    border: 1px solid #6143de;
-    border-radius: 13px;
+    border: 1px solid #1488CC;
+    border-radius: 10px;
     text-align: center;
     outline: 0;
     text-decoration: none;
@@ -5100,18 +5097,18 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color:  #8a6dfe;
-    border-color: #8a6dfe;
+    background-color: #5347a8;
+    border-color: #5347a8;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
 .footer {
-    background: #3f1ad9;
+    background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3f1ad9, #8365ff);
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f1ad9, #8365ff);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
