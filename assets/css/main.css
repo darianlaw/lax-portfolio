@@ -4821,11 +4821,11 @@ a img {
 }
 
 #particles-js {
-    background: #663583;
+    background:  #3f1ad9;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #663583, #75498F);
+    background: -webkit-linear-gradient(to right, #3f1ad9,  #8365ff);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #663583, #75498F);
+    background: linear-gradient(to right, #3f1ad9,  #8365ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -5104,11 +5104,11 @@ a img {
 }
 
 .footer {
-    background: #663583;
+    background: #3f1ad9;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #663583, #75498F);
+    background: -webkit-linear-gradient(to right, #3f1ad9, #8365ff);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #663583, #75498F);
+    background: linear-gradient(to right, #3f1ad9, #8365ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
