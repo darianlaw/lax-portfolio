@@ -3660,7 +3660,7 @@ template {
 
 .devicon-erlang-plain-wordmark:before {
     content: "\e616"
-}
+}n 'Laxto
 
 .devicon-erlang-plain:before {
     content: "\e617"
@@ -4890,7 +4890,7 @@ a img {
 }
 
 .header-links .link {
-    color: #212121;
+    color: #fff;
     text-decoration: none;
     font-size: 15px;
     margin: 10px
