@@ -4926,7 +4926,7 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #1488CC;
+    color:  #8a6dfe;
     background: #fff
 }
 
@@ -4967,7 +4967,7 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #4b5664
+    color: #8a6dfe
 }
 
 #about {
@@ -5097,8 +5097,8 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #0f5781;
-    border-color: #0f5781;
+    background-color:  #8a6dfe;
+    border-color: #8a6dfe;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
