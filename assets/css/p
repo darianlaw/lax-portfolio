@@ -210,6 +210,10 @@ summary {
     display: list-item
 }
 
+p{
+color: #ff;
+}
+
 [hidden],
 template {
     display: none
