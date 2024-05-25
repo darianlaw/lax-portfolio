@@ -75,8 +75,8 @@ dfn {
 }
 
 mark {
-    background-color: #212121;
-    color: #212121;
+    background-color: #fff;
+    color: #fff;
 }
 
 small {
@@ -4846,7 +4846,7 @@ a img {
 .header {
     z-index: 1;
     text-align: center;
-    color: #212121;
+    color: #fff;
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
@@ -4861,7 +4861,7 @@ a img {
     font-size: 35px;
     display: block;
     line-height: 1;
-    color: #212121;
+    color: #fff;
 }
 
 @media only screen and (min-width:550px) {
@@ -4875,7 +4875,7 @@ a img {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #212121;
+    color: #fff;
     margin-top: 10px
 }
 
